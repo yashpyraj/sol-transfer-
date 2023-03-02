@@ -6,8 +6,15 @@
     "start": "next start"
   },
   "dependencies": {
+    "@chakra-ui/react": "^2.5.1",
+    "@emotion/react": "^11.10.6",
+    "@emotion/styled": "^11.10.6",
+    "@solana/web3.js": "^1.73.3",
+    "framer-motion": "^10.0.1",
     "next": "latest",
     "react": "18.2.0",
-    "react-dom": "18.2.0"
+    "react-dom": "18.2.0",
+    "react-google-recaptcha": "^2.1.0",
+    "react-toastify": "^9.1.1"
   }
 }

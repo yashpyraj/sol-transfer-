@@ -1,10 +1,6 @@
 .container {
+  background-color: black;
   min-height: 100vh;
-  padding: 0 0.5rem;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
 }
 
 .title a {
@@ -33,10 +29,10 @@
   text-align: center;
 }
 
-
 .description {
   line-height: 1.5;
   font-size: 1.5rem;
+  color: #eaeaea;
 }
 
 .grid {
@@ -88,4 +84,53 @@
     width: 100%;
     flex-direction: column;
   }
+}
+
+.animateCharcter {
+  text-transform: uppercase;
+  background-image: linear-gradient(
+    -225deg,
+    #07f7af 0%,
+    #219db3 29%,
+    #8044ce 67%,
+    #db0fdb 100%
+  );
+  background-size: auto auto;
+  background-clip: border-box;
+  background-size: 200% auto;
+  padding-left: "0.9rem";
+  color: #fff;
+  background-clip: text;
+  text-fill-color: transparent;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: textclip 2s linear infinite;
+  display: inline-block;
+  font-size: 6rem;
+  font-weight: 700;
+}
+
+.animateCharcter2 {
+  text-transform: uppercase;
+  background-image: linear-gradient(
+    -225deg,
+    #07f7af 0%,
+    #219db3 29%,
+    #8044ce 67%,
+    #db0fdb 100%
+  );
+  background-size: auto auto;
+  background-clip: border-box;
+  background-size: 200% auto;
+  padding-left: "0.9rem";
+  color: #fff;
+  background-clip: text;
+  text-fill-color: transparent;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: textclip 2s linear infinite;
+  display: inline-block;
+  font-size: 4rem;
+  font-weight: 300;
+  margin-top: -12mm;
 }
